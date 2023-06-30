@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fundo: #146C94;
+    --fonte: #FEF2F4;
+    --destaque: #D14D72;
+    --destaque-2: #19A7CE;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(
+        45deg,
+        var(--fundo),
+        var(--destaque),
+        var(--destaque-2)
+    );
+    color: var(--fonte);
+}
+
+main{
+    max-width: 100%;
+    margin: 4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+main p{
+    text-align: justify;    
+    font-size: 1.25rem;
+}
+
+@media (min-width: 240px) and (max-width: 290px){
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-image: linear-gradient(
+            45deg,
+            var(--fundo),
+            var(--destaque),
+            var(--destaque-2)
+        );
+        color: var(--fonte);
+    }
+    
+    main{
+        max-width: 100%;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+    
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.75rem;
+    }
+    
+    main p{
+        text-align: justify;    
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 450px){
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-image: linear-gradient(
+            45deg,
+            var(--fundo),
+            var(--destaque),
+            var(--destaque-2)
+        );
+        color: var(--fonte);
+    }
+    
+    main{
+        max-width: 100%;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+    
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.75rem;
+    }
+    
+    main p{
+        text-align: justify;    
+        font-size: 1.25rem;
+    }
+}
